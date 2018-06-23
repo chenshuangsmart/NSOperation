@@ -15,6 +15,7 @@
 		401B23FE20DE33BA0091DBD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 401B23FD20DE33BA0091DBD0 /* main.m */; };
 		401B240820DE33BA0091DBD0 /* NSOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 401B240720DE33BA0091DBD0 /* NSOperationTests.m */; };
 		401B241320DE33BA0091DBD0 /* NSOperationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 401B241220DE33BA0091DBD0 /* NSOperationUITests.m */; };
+		401B242220DE3EF30091DBD0 /* CSOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 401B242120DE3EF20091DBD0 /* CSOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		401B240E20DE33BA0091DBD0 /* NSOperationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSOperationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		401B241220DE33BA0091DBD0 /* NSOperationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationUITests.m; sourceTree = "<group>"; };
 		401B241420DE33BA0091DBD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401B242020DE3EF20091DBD0 /* CSOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSOperation.h; sourceTree = "<group>"; };
+		401B242120DE3EF20091DBD0 /* CSOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				401B23EF20DE33BA0091DBD0 /* AppDelegate.m */,
 				401B23F120DE33BA0091DBD0 /* ViewController.h */,
 				401B23F220DE33BA0091DBD0 /* ViewController.m */,
+				401B242020DE3EF20091DBD0 /* CSOperation.h */,
+				401B242120DE3EF20091DBD0 /* CSOperation.m */,
 				401B23F420DE33BA0091DBD0 /* Main.storyboard */,
 				401B23F720DE33BA0091DBD0 /* Assets.xcassets */,
 				401B23F920DE33BA0091DBD0 /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 				401B23F320DE33BA0091DBD0 /* ViewController.m in Sources */,
 				401B23FE20DE33BA0091DBD0 /* main.m in Sources */,
 				401B23F020DE33BA0091DBD0 /* AppDelegate.m in Sources */,
+				401B242220DE3EF30091DBD0 /* CSOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
